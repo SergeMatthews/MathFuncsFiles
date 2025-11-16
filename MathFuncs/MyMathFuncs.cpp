@@ -11,17 +11,17 @@ void MySubtr(double a, double b) {
 	cout << a << " - " << b << " = " << (a - b) << endl;
 }
 void MyMult(double a, double b) {
-	cout << a << " óìíîæèòü íà " << b << " = " << (a * b) << endl;
+	cout << a << " Ã³Ä›Ã­Ã®Ä‡ÄÅˆÃ¼ Ã­Å• " << b << " = " << (a * b) << endl;
 }
 void MyDiv(double a, double b) {
 	if (b)
-		cout << a << " ðàçäåëèòü íà " << b << " = " << (a / b) << endl;
+		cout << a << " Ä‘Å•Ã§Ã¤ÄºÃ«ÄÅˆÃ¼ Ã­Å• " << b << " = " << (a / b) << endl;
 	else
-		cout << a << " ðàçäåëèòü íà " << b << " = " << 0 << endl;
+		cout << a << " Ä‘Å•Ã§Ã¤ÄºÃ«ÄÅˆÃ¼ Ã­Å• " << b << " = " << 0 << endl;
 }
 void MyPow(double a, double b) {
 	if (a && b)
-		cout << a << " â ñòåïåíè " << b << " = " << pow(a, b) << endl;
+		cout << a << " Ã¢ Å„ÅˆÄºÄÄºÃ­Ä " << b << " = " << pow(a, b) << endl;
 	else
-		cout << a << " â ñòåïåíè " << b << " = " << 1 << endl;
+		cout << a << " Ã¢ Å„ÅˆÄºÄÄºÃ­Ä " << b << " = " << 1 << endl;
 }
